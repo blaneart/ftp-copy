@@ -6,9 +6,17 @@
     "user": "user",
     "pass": "12345"
   },
-  "files": [
-    "/Users/art/PycharmProjects/untitled4/test.txt",
-    "/Users/art/PycharmProjects/untitled4/test1.txt",
-    "/Users/art/PycharmProjects/untitled4/test2.txt"
+  "files": [[
+      "/Users/art/PycharmProjects/absoft/ftp-copy/test.txt",
+      "/"
+    ],
+    [
+      "/Users/art/PycharmProjects/absoft/ftp-copy/test1.txt",
+      "/2"
+    ],
+  [
+      "/Users/art/PycharmProjects/absoft/ftp-copy/test2.txt",
+      "/"
+    ]
   ]
 }

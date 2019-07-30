@@ -17,10 +17,11 @@ def get_ftp_connection(host, port, name, passwd):
     return ftp
 
 
-def upload(file_name, ftp_data):
-    with open(file_name, 'rb') as f:
+def upload(file, ftp_data):
+    with open(file[0], 'rb') as f:
         with get_ftp_connection(ftp_data['host'], ftp_data['port'], ftp_data['user'], ftp_data['pass']) as ftp:
-            p = Path(file_name)
+            p = Path(file[0])
+            ftp.cwd(file[1])
             ftp.storbinary('STOR %s' % p.name, f)
 
 
