@@ -1,0 +1,14 @@
+{
+  "pool_num": 10,
+  "ftp": {
+    "host": "localhost",
+    "port": 1026,
+    "user": "user",
+    "pass": "12345"
+  },
+  "files": [
+    "/Users/art/PycharmProjects/untitled4/test.txt",
+    "/Users/art/PycharmProjects/untitled4/test1.txt",
+    "/Users/art/PycharmProjects/untitled4/test2.txt"
+  ]
+}
